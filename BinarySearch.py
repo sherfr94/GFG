@@ -3,7 +3,7 @@ def binary_search(arr, left, right, item):
     # Check base case
     if right >= left:
 
-        mid = int(left + (right - left) / 2)
+        mid = int((left + right) / 2)
         # print("mid:", mid, "l:", left, "r:", right)
 
         # If element is present at the middle itself
@@ -27,7 +27,7 @@ def binary_search(arr, left, right, item):
 
 # Test array
 arr1 = [2, 3, 4, 10, 40]
-item1 = 40
+item1 = 3
 print("arr:", arr1, "item:", item1)
 
 # Function call
